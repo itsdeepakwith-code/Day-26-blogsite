@@ -4,8 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import TopNav from "./TopNav";
 import Nav from "./Nav";
 import {
-  BrowserRouter as Router,
-  Route,
+  BrowserRouter as Route,
   Routes,
   BrowserRouter,
 } from "react-router-dom";
@@ -245,7 +244,7 @@ function App() {
       (a, b) => new Date(b.date) - new Date(a.date)
     ); // to sort Data by Date
     setSortedData(sortedData);
-  }, []);
+  }, [data]);
 
   return (
     <BrowserRouter>
