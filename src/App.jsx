@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import TopNav from "./TopNav";
 import Nav from "./Nav";
 import {
-  BrowserRouter as Route,
+  BrowserRouter as Router ,Route,
   Routes,
   BrowserRouter,
 } from "react-router-dom";
